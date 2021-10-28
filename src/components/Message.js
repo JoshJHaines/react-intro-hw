@@ -1,14 +1,17 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import MessageChild from "./MessageChild";
 
 export class Message extends Component {
-    render() {
-        console.log(this.props)
-        return (
-            <div>
+	render() {
+		console.log(this.props);
+		return (
+			<div className="App">
                 Hello {this.props.name}, {this.props.message}
-            </div>
-        )
-    }
+                <br />
+                <MessageChild num={this.props.num}/>
+			</div>
+		);
+	}
 }
 
-export default Message
+export default Message;
