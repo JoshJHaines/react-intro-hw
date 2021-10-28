@@ -3,10 +3,9 @@
  ****************/
 import React, { Component } from "react";
 import "./App.css";
-import Message from "./components/Message";
 import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
+import Middle from "./components/Middle";
 /********************
  * EXPORT COMPONENT *
  ********************/
@@ -14,7 +13,8 @@ export class App extends Component {
 	render() {
 		return (
       <div>
-        <Header />				
+        <Header />
+        <Middle />
         <Footer />
 			</div>
 		);
