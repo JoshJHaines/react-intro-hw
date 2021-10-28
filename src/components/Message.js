@@ -5,7 +5,7 @@ export class Message extends Component {
         console.log(this.props)
         return (
             <div>
-                Hello {this.props.name}
+                Hello {this.props.name}, {this.props.message}
             </div>
         )
     }

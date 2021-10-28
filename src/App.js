@@ -13,10 +13,10 @@ export class App extends Component {
   render() {
     return (
 		<div>
-			<Message name="class" />
-			<Message name="Josh" />
-			<Message name="Pak" />
-			<Message name="Merp" />
+			<Message name="class" message="how is your day going?" />
+			<Message name="Josh" message="did you eat yet?" />
+			<Message name="Pak" message="how was your weekend?" />
+			<Message name="Merp" message="PO-TAY-TOES!!!" />
 		</div>
 	);
   }
