@@ -23,9 +23,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-middle {
+  height: 80vh;
+  display: flex;
+}
 .App-sidebar {
   background-color: #1d4caa;
-  height: 80vh;
+  height: 100%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +38,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-body {
+  background-color: white;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
 .App-footer {
   background-color: grey;
   min-height: 10vh;
