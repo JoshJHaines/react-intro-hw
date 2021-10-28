@@ -4,7 +4,7 @@ export class Footer extends Component {
     render() {
         return (
             <div className="App-footer">
-                
+                Copyright Joshua Haines
             </div>
         )
     }
