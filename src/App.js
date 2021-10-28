@@ -12,11 +12,13 @@ import Message from "./components/Message"
 export class App extends Component {
   render() {
     return (
-      <div>
-        Hi Josh
-        <Message />
-      </div>
-    )
+		<div>
+			<Message name="class" />
+			<Message name="Josh" />
+			<Message name="Pak" />
+			<Message name="Merp" />
+		</div>
+	);
   }
 }
 
